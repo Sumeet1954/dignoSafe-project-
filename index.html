@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DignoSafe AI - AI-Powered Healthcare Diagnostics</title> 
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="global.css">  
+    <link rel="icon" href="/assets/icon.png" type="image/png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
+    <meta name="description" content="DignoSafe AI provides AI-powered healthcare diagnostics and connects you with medical professionals.">
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
+</head>
+<body>
+     <!-- Navigation Bar -->
+     <nav class="navbar navbar-expand-lg fixed-top ">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="/assets/logo.jpeg" alt="DignoSafe AI " height="40">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="   index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+                <div class="d-flex">
+                    <a href="#" class="btn btn-outline-primary me-2">Login</a>
+                    <a href="#" class="btn btn-primary">Register</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    </div>
+<!-- NavBar End -->
+
+<div class="div2">
+
+    <!-- Sidebar Menu -->
+    <div class="sidebar-menu" id="sidebar">
+        <div class="sidebar-header">
+            <h3>Quick Access</h3>
+            <button id="closeSidebar" class="btn-close" aria-label="Close sidebar"></button>
+        </div>
+        <ul class="sidebar-items">
+            <li><a href="#"><i class="fas fa-stethoscope"></i> Symptom Checker</a></li>
+            <li><a href="#"><i class="fas fa-file-medical"></i> Medical Records</a></li>
+            <li><a href="#"><i class="fas fa-calendar-check"></i> Book Appointment</a></li>
+            <li><a href="#"><i class="fas fa-ambulance"></i> Emergency Services</a></li>
+            <li><a href="#"><i class="fas fa-comment-medical"></i> AI Chat Support</a></li>
+        </ul>
+    </div>
+    <div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+<!-- Hero Section with Slideshow -->
+<section class="hero-section">
+    <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/assets/img1.jpg" class="d-block w-100" alt="AI-powered diagnostics">
+                <div class="carousel-caption">
+                    <h1>AI-Powered Healthcare Diagnostics</h1>
+                    <p>Get accurate preliminary diagnoses using our advanced AI technology</p>
+                    <a href="diagnosis.html" class="btn btn-primary btn-lg">Start AI Diagnosis</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/assets/img2.jpg" class="d-block w-100" alt="Personalized health recommendations">
+                <div class="carousel-caption">
+                    <h1>Personalized Health Recommendations</h1>
+                    <p>Receive tailored health advice based on your medical history and symptoms</p>
+                    <a href="diagnosis.html" class="btn btn-primary btn-lg">Start AI Diagnosis</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/assets/img3.jpg" class="d-block w-100" alt="Connect with healthcare providers">
+                <div class="carousel-caption">
+                    <h1>Connect with Healthcare Providers</h1>
+                    <p>Find and book appointments with qualified healthcare professionals near you</p>
+                    <a href="diagnosis.html" class="btn btn-primary btn-lg">Start AI Diagnosis</a>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</section>
+</div>
+
+
+
+
+    
+    <div class="div4">
+
+ <!-- Features Section -->
+    <section class="features-section py-5">
+        <div class="container">
+            <div class="section-header text-center mb-5">
+                <h2>AI-Powered Healthcare Features</h2>
+                <p>DignoSafe AI combines cutting-edge artificial intelligence with medical expertise to provide you with accurate, personalized healthcare guidance.</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h3>Real-time Symptom Analysis</h3>
+                        <p>Our advanced AI algorithms analyze your symptoms in real-time, providing accurate preliminary diagnoses to guide your healthcare decisions.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-history"></i>
+                        </div>
+                        <h3>Medical History Integration</h3>
+                        <p>Securely connect your medical history to receive more personalized and accurate health recommendations based on your unique health profile.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-user-md"></i>
+                        </div>
+                        <h3>Personalized Health Recommendations</h3>
+                        <p>Receive tailored health advice and preventive care recommendations based on your symptoms, medical history, and risk factors.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-exclamation-triangle"></i>
+                        </div>
+                        <h3>Emergency Risk Assessment</h3>
+                        <p>Quickly determine the urgency of your symptoms with our emergency risk assessment tool, helping you decide when immediate care is needed.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-comments"></i>
+                        </div>
+                        <h3>Virtual Health Assistant</h3>
+                        <p>Our AI-powered virtual health assistant is available 24/7 to answer your health questions and guide you through the diagnostic process.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h3>Healthcare Provider Locator</h3>
+                        <p>Find nearby healthcare facilities and specialists based on your location and medical needs, ensuring you get the right care at the right time.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+  <!-- How It Works Section -->
+  <section class="how-it-works-section py-5 bg-light">
+    <div class="container">
+        <div class="section-header text-center mb-5">
+            <h2>How DignoSafe AI Works</h2>
+            <p>Our AI-powered platform makes it easy to get preliminary diagnoses and connect with healthcare providers.</p>
+        </div>
+        <div class="row g-4 align-items-center">
+            <div class="col-md-6">
+                <img src="./assets/Untitled design.png" alt="How DignoSafe AI works" class="img-fluid rounded">
+            </div>
+            <div class="col-md-6">
+                <div class="steps-container">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h3>Describe Your Symptoms</h3>
+                            <p>Use our voice assistant or text interface to describe your symptoms in detail.</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h3>AI Analysis</h3>
+                            <p>Our AI analyzes your symptoms and compares them with our comprehensive medical database.</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h3>Receive Preliminary Diagnosis</h3>
+                            <p>Get a preliminary diagnosis and risk assessment based on your symptoms.</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">4</div>
+                        <div class="step-content">
+                            <h3>Connect with Healthcare Providers</h3>
+                            <p>Find and book appointments with qualified healthcare professionals near you.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Take Control of Your Health</h1>
+    <p>Experience advanced AI diagnostics and personalized health recommendations.</p>
+    <a href="#diagnosis" class="btn btn-light text-primary">Start Diagnosis</a>
+    <a href="#register" class="btn btn-outline-light">Sign Up Free</a>
+  </section>
+  </section>
+</div>
+
+
+    </div>
+
+
+<div class="div">
+     <!-- Voice Assistant -->
+     <div class="voice-assistant" id="voiceAssistant">
+        <div class="voice-assistant-toggle" id="voiceAssistantToggle">
+            <i class="fa-solid fa-user-doctor"></i>
+        </div>
+        <div class="voice-assistant-panel" id="voiceAssistantPanel">
+            <div class="voice-assistant-header">
+                <h3>Voice Assistant</h3>
+                <button id="closeVoiceAssistant" class="btn-close" aria-label="Close voice assistant"></button>
+            </div>
+            <div class="voice-assistant-body">
+                <div class="voice-assistant-messages" id="voiceAssistantMessages">
+                    <p class="assistant-message">How can I help you with your health concerns today?</p>
+                </div>
+                <div class="voice-assistant-controls">
+                    <button id="startVoiceBtn" class="voice-btn">
+                        <i class="fas fa-microphone"></i>
+                    </button>
+                    <p id="voiceStatus">Tap to speak</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="footer-about">
+                        <img src="/placeholder.svg?height=40&width=200" alt="DignoSafe AI Logo" height="40" class="mb-3">
+                        <p>DignoSafe AI is an innovative healthcare platform that uses artificial intelligence to provide accurate preliminary diagnoses and connect patients with healthcare providers.</p>
+                        <div class="social-links">
+                            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="footer-links">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="diagnosis.html">AI Diagnosis</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="footer-links">
+                        <h4>Services</h4>
+                        <ul>
+                            <li><a href="diagnosis.html">Symptom Checker</a></li>
+                            <li><a href="records.html">Medical Records</a></li>
+                            <li><a href="appointment.html">Book Appointment</a></li>
+                            <li><a href="emergency.html">Emergency Services</a></li>
+                            <li><a href="chat.html">AI Chat Support</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="footer-newsletter">
+                        <h4>Newsletter</h4>
+                        <p>Subscribe to our newsletter for the latest updates and health tips.</p>
+                        <form class="newsletter-form">
+                            <div class="input-group">
+                                <input type="email" class="form-control" placeholder="Your email address" aria-label="Your email address" required>
+                                <button class="btn btn-primary" type="submit">Subscribe</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p>&copy; 2023 DignoSafe AI. All rights reserved.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <ul class="footer-bottom-links">
+                            <li><a href="privacy.html">Privacy Policy</a></li>
+                            <li><a href="terms.html">Terms of Service</a></li>
+                            <li><a href="cookies.html">Cookie Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Sidebar Toggle Button -->
+    <button id="sidebarToggle" class="sidebar-toggle" aria-label="Open sidebar menu">
+        <i class="fas fa-bars"></i>
+    </button>
+
+</div>
+
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="app.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+    <script src="./voice-assistant.js"></script>
+     <!-- Bootstrap JS Bundle with Popper -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+  
+</body>
+
+  </body>
+</html>
+</body>
+</html>
